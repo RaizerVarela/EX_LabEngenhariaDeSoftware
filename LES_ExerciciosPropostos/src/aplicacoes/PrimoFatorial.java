@@ -6,7 +6,7 @@ public class PrimoFatorial {
 		
 		for(int i=0;i<=20;i++) {
 			int numero = (int)(Math.random() * 200);
-			if(primo(numero) && i!= 0) {
+			if(primo(numero) && numero!= 0) {
 				System.out.println("Primo: " + numero + "\nFatorial: ");
 				System.out.println(fatorial(numero));
 			}
